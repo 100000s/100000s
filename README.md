@@ -72,7 +72,7 @@ The available balance for all citizens will initially be 100 (50 federal-derived
 
 ## Governance and GIPs
 
-GIPs use six tracks: Authentication (A), Core (C), Interface (I), Knowledge (K), Oracle (O), and Process (P). Proposals are introduced as GitHub pull requests, require three acknowledged authors, pass review and peer audit, remain in a 28-day Last Call, and have a 12-week activation window. The genesis block and each subsequent protocol iteration commit a hash and URI for the GitHub GIP and BTC Ordinals text recording implemented contract changes. Ordinal publication may be paid by any party; consensus relies on the content hash, not ordinal availability.
+GIPs use six tracks: Authentication (A), Core (C), Interface (I), Knowledge (K), Oracle (O), and Process (P). Proposals are introduced as git pull requests, require three acknowledged authors, pass review and peer audit, remain in a 28-day Last Call, and have a 12-week activation window. The genesis block and each subsequent protocol iteration commit a hash and URI for the GIP and BTC Ordinals text recording implemented contract changes. Ordinal publication may be paid by any party; consensus relies on the content hash, not ordinal availability.
 
 The GIP process is enabled after at least one transaction is initiated in 30 states, and an ATM transaction in 10 distinct states.
 
@@ -98,10 +98,19 @@ The production boundary is the following named set:
 - `GenesisValidatorRegistry`: Verification for Validation, Verification, ATM operation, Arbitration, GIP implementation, zk production, geography, and hardware-attestation registry; While staking is not required for worker eligibility zero-knowledge proof of identity is required for production. 
 - `GenesisNoteRegistry`: Detailed metadata for physical Gens; denomination, serial, replacement, vault and transaction history for 1, 5, 20, and 100 Gens tied to dynamic QR.
 - `GenesisGovernance`: Automated GIP (Genesis Improvement Proposal) protocol; canonical GIP metadata, voting window, and resolution status, AppTeamDAO framework.
-- `AppTeamDAO`: Integrated GitHub-based Genesis tech development platform, live ongoing Genesis ecosystem research, development, and delivery. 
+- `AppTeamDAO`: Integrated git-based Genesis tech development platform, live ongoing Genesis ecosystem research, development, and delivery. 
 
 ## Repository status
 
-The canonical version of each Genesis module is maintained in this repository at https://github.com/100000s/Genesis/tree/main/contracts/src and should be considered the authoritative definition for production use.
+While each Genesis module is currently accessible in this repository at https://github.com/100000s/Genesis/tree/main/contracts/src, the version on Radicle should be considered authoritative for production use and censorship resistance: 
+
+View Readme & Specs (Browser):
+
+[https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z4D6FckiiFbhedL2GPjYVopgAmkkn](https://app.radicle.xyz/nodes/seed.radicle.xyz/rad:z4D6FckiiFbhedL2GPjYVopgAmkkn)
+
+Clone P2P via Radicle CLI:
+
+rad clone rad:z4D6FckiiFbhedL2GPjYVopgAmkkn
+
 
 
